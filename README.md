@@ -1,24 +1,27 @@
-# testing
+# Testing Vue Application
 
-## Setup do Projeto
+This project has the sole purpose to train the concept of unit tests with an Vue Application.
+I used Jest and Vue Test Utils to test User Interface and API calls.
+
+## Project Setup
 ```
 npm install
 ```
 
-### Ambiente de Desenvolvimento
+### Development Environment
 ```
 npm run serve
 ```
 
-#### Configurando a api Fake
+#### Configuring fake api
 
-Instalar o json-server globalmente:
+Install json-server globally:
 
 ```
 npm install -g json-server
 ```
 
-Iniciando a api fake de leilões;
+Init Json Server;
 
 ```
 json-server --watch db.json
